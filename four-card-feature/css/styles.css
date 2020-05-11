@@ -1,23 +1,86 @@
 <style>
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
-
   body {
     background-color: #f8f8f8;
     font-family: 'Poppins', sans-serif;
     max-width: 1440px;
     min-height: 100vh;
+    padding: 2rem;
   }
 
-  h1 {
-  text-align: center;
+  #title {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
   }
 
   #intro-text {
-  font-size: 30px;
-  font-weight: 200;
-  text-align: center; 
+    font-size: 15px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
   }
 
+  .supervisor-card {
+    border-top: 5px solid cyan;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-card {
+    border-top: 5px solid red;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .karma-card {
+    border-top: 5px solid orange;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .calculator-card {
+    border-top: 5px solid blue;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #text {
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  img {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 0 0 0;
+  }
+
+footer {
+  text-align: center;
+}
 
 </style>
